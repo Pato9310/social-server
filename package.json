@@ -1,0 +1,36 @@
+{
+  "name": "social-server",
+  "version": "1.0.0",
+  "description": "server of social clone",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "eslint",
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pato9310/social-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pato9310/social-server/issues"
+  },
+  "homepage": "https://github.com/Pato9310/social-server#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "mongoose": "6.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "ts-node": "10.8.1",
+    "typescript": "4.7.3"
+  }
+}

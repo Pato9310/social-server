@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: 'mongo'
+    environment:
+      MONGO_INITDB_DATABASE: socialDB
+      MONGO_INITDB_ROOT_USERNAME: socialDB
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      -./mongodb-volume:/data/db
+    ports:
+      -27017:27017
